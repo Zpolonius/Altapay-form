@@ -105,13 +105,3 @@ body, input
 {
 	background-color:greenyellow;
 }
-
-.PensioEmbeddedPaymentWindowBackground
-{
-}
-
-.PensioEmbeddedPaymentWindowRedirectedAway
-{
-	/* Ask merchant to force background when using popup and 3DS provider (Nets) does not set an opaque background */
-	/*background-color: rgba(255, 255, 255, 0.95); !important;*/
-}
