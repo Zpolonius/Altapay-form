@@ -20,7 +20,7 @@ body, input
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:16px;
-	text-align:left;
+	text-align: middle;
 	width:850px;
 }
 
@@ -56,17 +56,23 @@ body, input
 	padding-left: 10px;
 }
 #contentblock {
-	float: right;
+	float: middle;
 	text-align: left;
 	width: 650px;
+	vertical-align: 150px;
 }
 #testshopimage
 {
-	background-image:url(../images/testshop/testImage.png);
+	background-image:url(../images/logo.jpeg);
 	width:100px;
 	height:50px;
+	vertical-align: center;
 }
-
+.CustomAltaPaySubmitButton{
+	background-color: aqua;
+	border-radius: 180;
+	vertical-align: middle;
+}
 .terminal_select
 {
 	width:180px;
